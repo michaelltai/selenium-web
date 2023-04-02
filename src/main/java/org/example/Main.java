@@ -50,9 +50,9 @@ public class Main {
         List<WebElement> elements;
         String websiteName;
 
-        //1. OPEN CHROME BROWSER
+        //1. OPEN YOUR PREFFERED BROWSER
         ChromeOptions options = new ChromeOptions();
-        System.setProperty("webdriver.chrome.driver","C://Users//micha//selenium-java-4.8.3//chromedriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","");
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
 
